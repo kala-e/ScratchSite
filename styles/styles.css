@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Set background and font for the whole page */
+body {
+    background: #e0f7fa; /* light ocean blue */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #004d40;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the navigation bar */
+  .nav {
+    background-color: #00796b;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the header section */
+  .header {
+    background-image: url('https://aws.hawaii-guide.com/images/jcogs_img/cache/WAIKIKI-PAN-v2_-_abcdef_-_b74d3ef7430e946ce0fd6ea98dcf20c6ef7b842d.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  /* Style all content blocks */
+  .content {
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Style headers */
+  h1, h2 {
+    color: #00695c;
+  }
+  
+  /* Style lists */
+  ol, ul {
+    margin-left: 20px;
+  }
+  
